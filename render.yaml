@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: finn
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false        # optional: enables the extract/reason model tiers
+      - key: FINN_POLL_MINUTES
+        value: "10"

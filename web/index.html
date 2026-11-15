@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FINN Investment Agent</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="FINN: a mobile-first investor agent. Push: what changed in your portfolio and why it matters. Pull: a primary-source dossier on any NSE company.">
+<meta name="theme-color" content="#1d3b8f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/styles.css?v=10">
+</head>
+<body>
+<header class="shell">
+  <div class="shell-in">
+    <p class="wordmark">FINN</p>
+    <span id="mode" class="pill"><span class="dot"></span>Loading</span>
+    <span class="spacer"></span>
+    <button class="iconbtn" id="about" aria-label="How FINN works"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg></button>
+  </div>
+</header>
+<div class="app">
+  <main id="view" aria-live="polite">
+    <section class="view loading"><div class="skel" style="height:120px"></div><div class="skel"></div><div class="skel" style="width:60%"></div></section>
+  </main>
+</div>
+<div class="tabbar"><nav id="tabs" aria-label="Sections"></nav></div>
+<script src="assets/app.js?v=10"></script>
+</body>
+</html>

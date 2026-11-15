@@ -1,0 +1,11 @@
+{
+  "name": "FINN — Financial Investment Agent",
+  "short_name": "FINN",
+  "start_url": "./#brief",
+  "display": "standalone",
+  "background_color": "#edf0f4",
+  "theme_color": "#2347d8",
+  "icons": [
+    {"src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

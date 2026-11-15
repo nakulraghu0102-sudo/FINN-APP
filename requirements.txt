@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn>=0.30
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.0
+pypdf>=5.0
+yfinance>=0.2.50
+anthropic>=0.40
