@@ -1,0 +1,2 @@
+# FINN-APP
+Trading app
